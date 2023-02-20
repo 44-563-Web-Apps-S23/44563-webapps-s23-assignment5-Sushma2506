@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
-        .size{
-        height: 400px;
-        width: 400px;
-        
-      }
-      img {
-  border: 1px solid #ddd; /* Gray border */
-  border-radius: 4px;  /* Rounded border */
-  padding: 5px; /* Some padding */
-  width: 150px; /* Set a small width */
-}
+        .size {
+            height: 400px;
+            width: 400px;
 
-/* Add a hover effect (blue shadow) */
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
+        }
+
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+      
+     
     </style>
     <title>All about plants</title>
     <h2>Plants by Sushma</h2>
@@ -35,7 +38,7 @@ img:hover {
 </head>
 
 <body>
-    
+
     <div class="container">
         <div class="row">
             <div class=" col-sm-2">Y</div>
@@ -46,36 +49,112 @@ img:hover {
             <div class=" col-sm-2">S</div>
         </div>
         <div class="row">
-                <div class=" col-md">Yellow Fritillary</div>
-                <div class=" col-md">Aerangis Orchids</div>
-                <div class=" col-md">Lavender</div>
-                <div class=" col-md">Ladybell</div>
-                <div class=" col-md">Alocasia Tiny Dancer</div>
-                <div class=" col-md">Scarlet Oak</div>
+            <div class=" col-md">Yellow Fritillary</div>
+            <div class=" col-md">Aerangis Orchids</div>
+            <div class=" col-md">Lavender</div>
+            <div class=" col-md">Ladybell</div>
+            <div class=" col-md">Alocasia Tiny Dancer</div>
+            <div class=" col-md">Scarlet Oak</div>
         </div>
-    </div>   
-    <p>Plant's name row breaking first as grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes,
-       and override grid classes targeted at smaller devices. Therefore, e.g. applying any .col-md-* class to an element will not only
-       affect its styling on medium devices but also on large devices. In col-md -> md meant for medium screens and col-sm --> sm meant 
-       for smaller screen so this is why plant names got broke.s</p> 
+    </div>
+    <p>Plant's name row breaking first as grid classes apply to devices with screen widths greater than or equal to the
+        breakpoint sizes,
+        and override grid classes targeted at smaller devices. Therefore, e.g. applying any .col-md-* class to an
+        element will not only
+        affect its styling on medium devices but also on large devices. In col-md -> md meant for medium screens and
+        col-sm --> sm meant
+        for smaller screen so this is why plant names got broke.s</p>
     <br>
     <div class="container">
-        <img src="Images/yellowfrit.jpg" alt="yellowfrit Image" class="size"/>
-        <img src="Images/aerangis-orchids.jpg" alt="aerangis orchids Image" class="size"/>
-        <img src="Images/lavender.jpg" alt="lavender Image" class="size"/>
+        <img src="Images/yellowfrit.jpg" alt="yellowfrit Image" class="size" />
+        <img src="Images/aerangis-orchids.jpg" alt="aerangis orchids Image" class="size" />
+        <img src="Images/lavender.jpg" alt="lavender Image" class="size" />
     </div>
     <div class="container">
-    <a target="_blank" href="Images/yellowfrit.jpg">
-        <img src="Images/yellowfrit.jpg" alt="yellowfrit Image">
-      </a>
-      <a target="_blank" href="Images/aerangis-orchids.jpg">
-        <img src="Images/aerangis-orchids.jpg" alt="aerangis orchids Image">
-      </a>
-      <a target="_blank" href="Images/lavender.jpg">
-        <img src="Images/lavender.jpg" alt="lavender Image">
-      </a>
+        <a target="_blank" href="Images/yellowfrit.jpg">
+            <img src="Images/yellowfrit.jpg" alt="yellowfrit Image">
+        </a>
+        <a target="_blank" href="Images/aerangis-orchids.jpg">
+            <img src="Images/aerangis-orchids.jpg" alt="aerangis orchids Image">
+        </a>
+        <a target="_blank" href="Images/lavender.jpg">
+            <img src="Images/lavender.jpg" alt="lavender Image">
+        </a>
     </div>
     <br>
+    <br></br>
+    
+    <table class="table table-hover table-boarder caption-top table-striped table-bordered " >
+        <caption>Table of Letters Flowers Mountains Lakes</caption>
+        <thead class="table-dark">
+        <tr >
+            <th scope="col">Letter</th>
+            <th scope="col">Plant</th>
+            <th scope="col">Mountain</th>
+            <th scope="col">Lake</th>
+        </tr>
+        </thead>
+        <body>
+        <tr class="table-success" >
+            <th scope="row">Y</th>
+            <td>Yellow Fritillary</td>
+            <td>Yari Mountain</td>
+            <td>Yathkyed Lake</td> 
+        </tr>
+        <tr class="table-info">
+            <th scope="row">A</th>
+            <td>Aerangis Orchids</t>
+            <td>angel sar Mountain</td>
+            <td>Aubry</td> 
+        </tr>
+        <tr class="table-warning">
+            <th scope="row">L</th>
+            <td>Lavender</td>
+            <td>lincoln Mountain</td>
+            <td>Lough Ree lake</td> 
+        </tr> 
+        <tr class="table-active">
+            <th scope="row">L</th>
+            <td>Ladybell</td>
+            <td>little alberta Mountain</td>
+            <td>Lough Derg lake</td> 
+        </tr>  
+        <tr class="table-danger">
+            <th scope="row">A</th>
+            <td>Alocasia Tiny Dancer</td>
+            <td>andrus Mountain</td>
+            <td>Atlin</td> 
+        </tr>   
+        <tr class="table-primary">
+            <th scope="row">S</th>
+            <td>Scarlet Oak</td>
+            <td>saint elias Mountain</td>
+            <td>Sagar</td> 
+        </tr>   
+        </body>
+        </table>
+        <div>
+            <button type="button" class="btn btn-sm">Y</button>
+            <button type="button" class="btn btn-sm" >A</button>
+            <button type="button" class="btn btn-sm" >L</button>
+            <button type="button" class="btn btn-sm">L</button>
+            <button type="button" class="btn btn-sm" >A</button>
+            <button type="button" class="btn btn-sm" >S</button>
+        </div>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="First group">
+            <button type="button" class="btn btn-success" role="group">Y</button>
+            <button type="button" class="btn btn-success" role="group">A</button>
+            <button  type="button"class="btn btn-success" role="group">L</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-warning" role="group">L</button>
+            <button type="button" class="btn btn-warning" role="group">A</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-danger" role="group">S</button>
+        </div>
+        </div>
 </body>
 
 </html>
