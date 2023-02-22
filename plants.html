@@ -9,14 +9,14 @@
 
         }
 
-        img {
+        .img-thumbnail {
             border: 1px solid #ddd;
             border-radius: 4px;
             padding: 5px;
             width: 150px;
         }
 
-        img:hover {
+        .img-thumbnail:hover {
             box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
         }
       
@@ -75,22 +75,22 @@
         element will not only
         affect its styling on medium devices but also on large devices. In col-md -> md meant for medium screens and
         col-sm --> sm meant
-        for smaller screen so this is why plant names got broke.s</p>
+        for smaller screen so this is why plant names got broke.</p>
     <br> </br>
     <div class="container">
-        <img src="Images/yellowfrit.jpg" alt="yellowfrit Image" class="size" />
+        <img src="Images/yellowfrit.jpg" alt="YellowFritillary Image" class="size" />
         <img src="Images/aerangis-orchids.jpg" alt="aerangis orchids Image" class="size" />
         <img src="Images/lavender.jpg" alt="lavender Image" class="size" />
     </div>
     <div class="container">
         <a target="_blank" href="Images/yellowfrit.jpg">
-            <img src="Images/yellowfrit.jpg" alt="yellowfrit Image">
+            <img src="Images/yellowfrit.jpg" class="img-thumbnail" alt="YellowFritillary Image">
         </a>
         <a target="_blank" href="Images/aerangis-orchids.jpg">
-            <img src="Images/aerangis-orchids.jpg" alt="aerangis orchids Image">
+            <img src="Images/aerangis-orchids.jpg" class="img-thumbnail" alt="aerangis orchids Image">
         </a>
         <a target="_blank" href="Images/lavender.jpg">
-            <img src="Images/lavender.jpg" alt="lavender Image">
+            <img src="Images/lavender.jpg" class="img-thumbnail" alt="lavender Image">
         </a>
     </div>
    
@@ -195,6 +195,43 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem;">
+                <img src="Images/aerangis-orchids.jpg" class="card-img-top" alt="Aerangis-orchids">
+                <div class="card-body">
+                  <h5 class="card-title">A breif about Aerangis-orchids</h5>
+                  <p class="card-text">Aerangis, abbreviated as Aergs in horticultural trade, is a genus of the Orchid family (Orchidaceae). 
+                     The name of this genus has been derived from the Greek words 'aer' (air) and 'angos' (urn),
+                      referring to the form of the lip.</p>
+                  <a href="https://en.wikipedia.org/wiki/Aerangis" class="btn btn-primary">Click here to know more about Aerangis-orchids </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                <img src="Images/lavender.jpg" class="card-img-top" alt="Lavender">
+                <div class="card-body">
+                  <h5 class="card-title">A short breif about Lavender</h5>
+                  <p class="card-text">Lavandula (common name lavender) is a genus of 47 known species of flowering plants in the mint family, Lamiaceae. 
+                    It is native to the Old World and is found in Cape Verde and the Canary Islands, and from Europe across to northern and eastern Africa, 
+                    the Mediterranean, southwest Asia to India.</p>
+                  <a href="https://en.wikipedia.org/wiki/Lavandula" class="btn btn-primary">Click here to know more about Lavender</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                <img src="Images/yellowfrit.jpg" class="card-img-top" alt="YellowFritillary">
+                <div class="card-body">
+                  <h5 class="card-title">A short breif about YellowFritillary</h5>
+                  <p class="card-text">Fritillaria pudica, the yellow fritillary, is a small perennial plant found in the sagebrush country in the western United States 
+                     and Canada.It is a member of the lily family Liliaceae.Another common (but somewhat ambiguous) name is "yellow bells", since it has a bell-shaped yellow flower. </p>
+                  <a href="https://en.wikipedia.org/wiki/Fritillaria_pudica" class="btn btn-primary">Click here to know more about YellowFritillary</a>
+                </div>
+              </div>
+            </div>
+          </div>
 </body>
 
 </html>
